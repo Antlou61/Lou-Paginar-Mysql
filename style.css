@@ -1,0 +1,37 @@
+
+/* CSS Document style */
+
+    /* Style for the pagination container */
+	.paginar { 
+        display: flex; /* Use flexbox for easy alignment */
+        justify-content: center; /* Center the links horizontally */
+        align-items: center; /* Center the links vertically */
+        margin: 20px 0; /* Add some space above and below */
+        font-family: sans-serif; /* Choose a font */	
+	}
+	
+    /* Style for the links */
+    .paginar a {
+        padding: 8px 12px; /* Add padding around the links */
+        margin: 0 5px; /* Add space between links */
+        border: 1px solid #ccc; /* Add a border */
+        text-decoration: none; /* Remove underline */
+        color: #333; /* Set link color */
+        border-radius: 4px; /* Rounded corners */
+    }
+
+    /* Style for the hover effect */
+    .paginar a:hover {
+        background-color: #f0f0f0; /* Light gray background on hover */
+    }
+
+    /* Style for the active page number */
+    .paginar strong {
+        padding: 8px 12px;
+        margin: 0 5px;
+        border: 1px solid #ccc;
+        background-color: #007bff; /* Blue background for active page */
+        color: white; /* White text for active page */
+        border-radius: 4px;
+    }
+	
